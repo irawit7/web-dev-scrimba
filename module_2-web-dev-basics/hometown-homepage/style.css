@@ -26,7 +26,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-bottom: 0px;
-  height: 343px;
+  height: 700vh;
 }
 #hero-heading {
   background-color: #457b9d;
@@ -47,6 +47,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
 #activities {
   background-color: #f1faee;
   margin-top: 0px;

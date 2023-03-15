@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="col">
+          <h3>HOME</h3>
+          <h1 id="display-home">0</h1>
+          <div class="increment">
+            <button onclick="incrementOne(homeScore)">+1</button>
+            <button onclick="incrementTwo(homeScore)">+2</button>
+            <button onclick="incrementThree(homeScore)">+3</button>
+          </div>
+        </div>
+        <div id="reset"><button onclick="reset()">Reset</button></div>
+        <div class="col">
+          <h3>GUEST</h3>
+          <h1 id="display-guest">0</h1>
+          <div class="increment">
+            <button onclick="incrementOne(guestScore)">+1</button>
+            <button onclick="incrementTwo(guestScore)">+2</button>
+            <button onclick="incrementThree(guestScore)">+3</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
